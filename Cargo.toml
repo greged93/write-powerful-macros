@@ -1,0 +1,12 @@
+[package]
+name = "public"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+public-macro = { path = "public-macro" }
+builder-macro = { path = "builder-macro" }
+result-macro = { path = "result-macro" }
+analyze-macro = { path = "analyze-macro" }
+iac-macro = { path = "iac-macro" }
+config-macro = { path = "config-macro" }
